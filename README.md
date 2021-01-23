@@ -1,4 +1,4 @@
-# y
+# tailwindcss and nuxt project
 
 ## Build Setup
 
