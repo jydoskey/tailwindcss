@@ -47,7 +47,7 @@
     align-items: center;
     justify-content: center;
     line-height: 2.75rem;
-    width: 600px;
+    max-width: 600px;
   }
 
   ul.cloud a {
