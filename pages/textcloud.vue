@@ -1,22 +1,24 @@
 <template>
-  <div class="textcloud">
-    <ul class="cloud" role="navigation" aria-label="Webdev word cloud">
-      <li><a data-weight="4" href="#">HTTP</a></li>
-      <li><a data-weight="2" href="#">Ember</a></li>
-      <li><a data-weight="5" href="#">Sass</a></li>
-      <li><a data-weight="8" href="#">HTML</a></li>
-      <li><a data-weight="6" href="#">FlexBox</a></li>
-      <li><a data-weight="4" href="#">API</a></li>
-      <li><a data-weight="5" href="#">VueJS</a></li>
-      <li><a data-weight="6" href="#">Grid</a></li>
-      <li><a data-weight="3" href="#">Rest</a></li>
-      <li><a data-weight="9" href="#">JavaScript</a></li>
-      <li><a data-weight="3" href="#">Animation</a></li>
-      <li><a data-weight="7" href="#">React</a></li>
-      <li><a data-weight="8" href="#">CSS</a></li>
-      <li><a data-weight="1" href="#">Cache</a></li>
-      <li><a data-weight="3" href="#">Less</a></li>
-    </ul>
+  <div class="container">
+    <div class="textcloud">
+      <ul class="cloud" role="navigation" aria-label="Webdev word cloud">
+        <li><a data-weight="4" href="#">HTTP</a></li>
+        <li><a data-weight="2" href="#">Ember</a></li>
+        <li><a data-weight="5" href="#">Sass</a></li>
+        <li><a data-weight="8" href="#">HTML</a></li>
+        <li><a data-weight="6" href="#">FlexBox</a></li>
+        <li><a data-weight="4" href="#">API</a></li>
+        <li><a data-weight="5" href="#">VueJS</a></li>
+        <li><a data-weight="6" href="#">Grid</a></li>
+        <li><a data-weight="3" href="#">Rest</a></li>
+        <li><a data-weight="9" href="#">JavaScript</a></li>
+        <li><a data-weight="3" href="#">Animation</a></li>
+        <li><a data-weight="7" href="#">React</a></li>
+        <li><a data-weight="8" href="#">CSS</a></li>
+        <li><a data-weight="1" href="#">Cache</a></li>
+        <li><a data-weight="3" href="#">Less</a></li>
+      </ul>
+    </div>
   </div>
 </template>
 
@@ -28,6 +30,15 @@
 </script>
 
 <style lang="scss" scoped>
+  .container {
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
   html,
   body {
     height: 100vh;
