@@ -1,23 +1,21 @@
 <template>
   <div class="container">
     <div>
-      <TextCloud />
+      <nuxt-link to="/textcloud"
+        class="text-white bg-blue-500 hover:bg-blue-700 py-3 px-4 font-semibold rounded-lg shadow-md">TextCloud
+      </nuxt-link>
     </div>
   </div>
 </template>
 
 <script>
   export default {
-    
+
   }
+
 </script>
 
-<style>
-  /* Sample `apply` at-rules with Tailwind CSS
-.container {
-@apply min-h-screen flex justify-center items-center text-center mx-auto;
-}
-*/
+<style lang="scss" scoped>
   .container {
     margin: 0 auto;
     min-height: 100vh;
