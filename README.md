@@ -1,4 +1,4 @@
-# tailwindcss and nuxt project
+# Tinkering on tailwindcss and nuxt
 
 ## Build Setup
 
